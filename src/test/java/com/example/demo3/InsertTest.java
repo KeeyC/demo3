@@ -12,7 +12,7 @@ public class InsertTest {
     InsertService insertService;
     @Test
     public void InsertStudent() {
-        insertService.InsertStudent("xiaoming",2,"boy");
+        insertService.InsertStudent("xiaomi432ng",2,"boy");
        System.out.println("---- " +
                "插入成功");
     }

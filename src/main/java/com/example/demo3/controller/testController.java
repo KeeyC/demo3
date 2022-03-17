@@ -14,6 +14,7 @@ public class testController {
      */
     @ResponseBody
     public String HelloController(){
+        System.out.println("Hello!");
         return "Hello Controller!";
     }
 }

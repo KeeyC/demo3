@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class InsertServiceImpl extends ServiceImpl<StudentMapper,Student> implements InsertService {
+
     @Autowired
     private StudentMapper studentMapper;
 
